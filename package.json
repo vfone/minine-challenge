@@ -26,7 +26,7 @@
   "homepage": "https://github.com/vfone/minine-challenge",
   "dependencies": {
     "domready": "^1.0.5",
-    "express": "^4.5.0",
+    "express": "^4.5.1",
     "logfmt": "^1.1.2"
   }
 }

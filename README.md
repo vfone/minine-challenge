@@ -22,7 +22,16 @@ $ npm install domready --save
 //declare all dependencies
 
 $ npm install express logfmt --save
-//Now it’s time to install some dependencies like express and logfmt, not 100% sure, but just in case if I need later.
+//Now it’s time to install some dependencies like express and logfmt, not 100% sure, but just in case if I need them later.
+
+Just realise that express4 need to install body parser individually, so go
+$npm install body-parser
+
+Now, some notes to take coz I gonna forget very soon:
+1. fakeData is a copy of sample request JSON for local testing.. and it passed! Hoooray!
+2. port for http set as 9999 since 80,8080,8888 all defined on localhost for other server
+3. now time to push and test online 
+
 
 
 WHO IS HEROKU
