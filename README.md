@@ -50,5 +50,5 @@ $ heroku apps:rename BETTERAPPNAME
 //commandline will rename the app just created or simply open Apps page from heroku dashboard, much easier to modify settings
 
 Deploy code so far by 
-$ git push hearku master
+$ git push heroku master
 
