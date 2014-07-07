@@ -29,7 +29,7 @@ $npm install body-parser
 
 Now, some notes to take coz I gonna forget very soon:
 1. fakeData is a copy of sample request JSON for local testing.. and it passed! Hoooray!
-2. port for http set as 9999 since 80,8080,8888 all defined on localhost for other server
+2. port for http set as 80
 3. now time to push and test online 
 
 
@@ -51,4 +51,15 @@ $ heroku apps:rename BETTERAPPNAME
 
 Deploy code so far by 
 $ git push heroku master
+
+FAILED!!! 
+Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+No PANIC! Seem I nned to manage bit more of SSH keys
+Generate a public  key by
+$ ssh-keygen -t rsa
+
+then add key
+$ hero keys:add
 
